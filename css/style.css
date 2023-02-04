@@ -1,0 +1,130 @@
+/* Font-Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/* Font-Open Sans */
+
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	background-color: #c6e5f3;
+}
+nav{
+	width: 1200px;
+/*	background-color: #9264e3;*/
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+p{
+	margin: 0;
+}
+nav .logo{
+	flex-basis: 20%;
+}
+img{
+	max-width: 100%;
+}
+.logo img{
+	width: 140px;
+}
+nav .menu{
+	flex-basis: 80%;
+}
+
+nav .menu a {
+    color: #2c3748;
+    font-size: 15px;
+    padding: 7px 17px;
+    /* background-color: deepskyblue; */
+    border-radius: 50px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.menu a:hover{
+	background-color: #4299e1;
+	color: white;
+}
+.hero-banner{
+	background-image: url(../images/hero.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: right;
+	padding: 200px 0;
+}
+.hero-banner-content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.hero-banner-content h1{
+	max-width: 800px;
+	color: #2c3748;
+	font-size: 70px;	
+	font-weight: 700;
+	margin: 0;
+	line-height: 1.2em;
+}
+.gallery-section{
+	padding: 100px 0;
+	background: rgb(44,55,72);
+	background: linear-gradient(135deg, rgba(44,55,72,1) 50%, rgba(66,153,225,1) 50%);
+}
+.gallery{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery div{
+    flex-basis: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.gallery div img{
+    display: block;
+    height: 350px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 7px;
+}
+.additional{
+    width: 1000px;
+    text-align: center;
+    color: white;
+    margin: 70px auto 0;
+    background-color: #2c3748;
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 21px #dbdbdbd1;
+}
+.additional h2{
+    margin: 0;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.additional p{}
+footer{
+
+padding: 50px 0;
+
+text-align: center;
+}
+footer p{
+
+font-size: 15px;
+
+letter-spacing: 1px;
+
+font-weight: 300;
+
+color: #2c3748;
+}
+footer p a{
+    color: #2c3748;
+    font-weight: 700;
+    text-decoration: none;
+}
